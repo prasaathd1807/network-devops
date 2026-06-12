@@ -17,7 +17,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'git@github.com:prasaathd1807/network-devops.git', credentialId: 'prasaath-github-cred'
+                url: 'git@github.com:prasaathd1807/network-devops.git', credentialsId: 'prasaath-github-cred'
             }
         }
 
